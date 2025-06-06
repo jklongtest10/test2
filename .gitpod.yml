@@ -1,5 +1,6 @@
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - command: |
-      java -version
+  - init: |
+      sdk install java 17.0.7-tem
+      sdk default java 17.0.7-tem
