@@ -1,7 +1,5 @@
+image:
+  file: .gitpod.Dockerfile
 tasks:
-  - init: |
-      source "/home/gitpod/.sdkman/bin/sdkman-init.sh"
-      sdk install java 17.0.4.1-tem < /dev/null
-      sdk default java 17.0.4.1-tem
   - command: |
       java -version
